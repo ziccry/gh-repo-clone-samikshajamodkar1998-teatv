@@ -1,0 +1,37 @@
+<html>
+
+<body>
+    <script>
+        let delay = 0;
+        const getHtmlWebview = link => new Promise((resolve, reject) => {
+            delay += 1000;
+            setTimeout(() => {
+                let newID = "wv" + String(Math.random()).replace(".", "") + new Date().getTime();
+                let webviewString = `<webview id="${newID}" src="${link}" preload="./js/preload.js" disablewebsecurity>`;
+                document.body.innerHTML += webviewString;
+                let webview = document.querySelector('#' + newID);
+                let listener1 = webview.addEventListener('dom-ready', (e) => {
+                    // console.log('dom-ready');
+                    webview.executeJavaScript("sendHtml()");
+                });
+                let listener2 = webview.addEventListener('ipc-message', (e) => {
+                    if (e.channel === "html-content") {
+                        var html_contents = e.args[0];
+                        resolve(html_contents);
+                        console.log('getHtmldone');
+                        webview.removeEventListener('ipc-message', listener2);
+                        webview.removeEventListener('dom-ready', listener1);
+                        webview.parentNode.removeChild(webview);
+                        delay -= 1000;
+                    }
+                });
+            }, delay);
+        });
+
+        console.log('%c DEV MODE ', 'background: #222; color: #bada55',
+            'Get Link Console');
+    </script>
+    <script>require('./js/getlink.js')</script>
+</body>
+
+</html>

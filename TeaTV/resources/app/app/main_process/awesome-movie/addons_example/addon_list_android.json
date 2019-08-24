@@ -1,0 +1,60 @@
+{
+    "providers": {
+        "primeware": {
+            "name": "primeware",
+            "domain": "primeware.ag",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/primeware.js",
+            "type": ["movie", "tv"]
+        },
+        "afdah": {
+            "name": "afdah",
+            "domain": "afdah.to",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/afdah.js",
+            "type": ["movie"]
+        },
+        "alluc-hand": {
+            "name": "alluc-hand",
+            "domain": "alluc.ee",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/alluc-hand.js",
+            "type": ["movie", "tv"]
+        },
+        "flixanity": {
+            "name": "flixanity",
+            "domain": "flixanity.mobi",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/flixanity.js",
+            "type": ["movie", "tv"]
+        },
+        "gowatchfreemovies": {
+            "name": "gowatchfreemovies",
+            "domain": "gowatchfreemovies.to",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/gowatchfreemovies.js",
+            "type": ["movie", "tv"]
+        },
+        "m4ufree": {
+            "name": "m4ufree",
+            "domain": "m4ufree.club",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/providers/m4ufree.js",
+            "type": ["movie", "tv"]
+        }
+    },
+    "hosts": {
+        "streamango": {
+            "name": "streamango",
+            "domain": "streamango.com",
+            "version": "0.0.1",
+            "url": "http://10.0.2.2:8000/hosts/streamango.js"
+        },
+        "openload": {
+            "name": "openload",
+            "domain": ["openload.com", "openload.co", "oload.tv", "oload.stream", "oload.info"],
+            "version": "0.0.6",
+            "url": "http://10.0.2.2:8000/hosts/openload.js"
+        }
+    }
+}

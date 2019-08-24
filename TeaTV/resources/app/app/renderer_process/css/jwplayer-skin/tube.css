@@ -1,0 +1,277 @@
+/*!
+ * Tube Skin Retina for JW7 v1.2.3
+ * Copyright 2015 FaceTheme, CodeCanyon
+ * http://codecanyon.net/user/facetheme
+ */
+
+@font-face {
+  font-family: 'jw-tube-icons';
+  src:url('fonts/jw-tube-icons.eot?8vah6z');
+  src:url('fonts/jw-tube-icons.eot?#iefix8vah6z') format('embedded-opentype'),
+    url('fonts/jw-tube-icons.ttf?8vah6z') format('truetype'),
+    url('fonts/jw-tube-icons.woff?8vah6z') format('woff'),
+    url('fonts/jw-tube-icons.svg?8vah6z#jw-tube-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jw-icon {
+  font-family: 'jw-tube-icons' !important;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  background-color: transparent;
+  font-variant: normal;
+  /* Enable Ligatures ================ */
+
+  -webkit-font-feature-settings: "liga";
+     -moz-font-feature-settings: "liga=1";
+     -moz-font-feature-settings: "liga";
+      -ms-font-feature-settings: "liga" 1;
+       -o-font-feature-settings: "liga";
+          font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*.jwplayer.jw-flag-fullscreen {
+  font-size: 22px;
+}*/
+
+
+/*** ICONS ***/
+
+.jw-skin-tube.jwplayer.jw-state-idle .jw-icon-display:before {
+  content: "\e901";
+  font-size: 5em;
+  color: #fff;
+  background-image:none;
+  background: none;
+}
+
+.jw-skin-tube.jwplayer.jw-state-idle:hover .jw-display-icon-container .jw-icon-display {
+  color: #f1c40f;
+}
+
+.jwplayer.jw-skin-tube:not(.jw-flag-touch):not(.jw-error):not(.jw-state-error):not(.jw-state-buffering) .jw-display-icon-container:hover, .jwplayer.jw-skin-tube:not(.jw-flag-touch):not(.jw-error):not(.jw-state-error):not(.jw-state-buffering) .jw-media:hover~.jw-controls .jw-display-icon-display {
+  color: #f1c40f;
+  background-color: transparent;
+}
+
+.jwplayer.jw-skin-tube:not(.jw-flag-touch):not(.jw-error):not(.jw-state-error):not(.jw-state-buffering) .jw-display-icon-container:hover .jw-icon {
+  color: #f1c40f;
+}
+
+.jw-skin-tube.jwplayer.jw-state-complete .jw-display-icon-container .jw-icon-display::before {
+  font-size: 2em;
+}
+
+/* Use this class to set a global background color for all elemnts. */
+.jw-skin-tube .jw-background-color.jw-display-icon-container,
+.jw-skin-tube.jwplayer:hover .jw-display-icon-container {
+  background-color: transparent;
+}
+
+.jw-skin-tube .jw-button-color {
+  color: #fff;
+}
+
+.jw-skin-tube .jw-button-color:focus,
+.jw-skin-tube .jw-button-color:hover,
+.jw-skin-tube :not(.jw-flag-touch) .jw-button-color:hover {
+  color: #f1c40f;
+}
+
+/* Color for when HD/CD icons are toggled off. */
+.jw-skin-tube .jw-toggle.jw-off {
+  color: #6c6b6b;
+}
+
+.jw-skin-tube .jw-slider-time.jw-background-color.jw-slider-horizontal {
+  background-color: transparent;
+}
+
+/* Styles the timeslider rail */
+.jw-skin-tube .jw-rail {
+  background-color: rgba(255,255,255,.2);
+}
+
+/* Sets the color for the buffer of the timeslider rail. */
+.jw-skin-tube .jw-buffer {
+  background-color: rgba(255,255,255,.4);
+}
+
+/* Sets the style for the elaspesd progress. */
+.jw-skin-tube .jw-progress {
+  background: #f1c40f;
+}
+
+/* Sets the width of the knob's container */
+.jw-skin-tube .jw-slider-horizontal .jw-knob {
+  background-color: #f39c12;
+  width: .625em;
+  height: .625em;
+  border-radius: 0.313em;
+  top: -0.1875em;
+}
+
+/* Sets the style for the time tooltip, menu, volume. */
+.jw-skin-tube .jw-time-tip,
+.jw-skin-tube .jw-menu,
+.jw-skin-tube .jw-volume-tip,
+.jw-skin-tube .jw-skip {
+  border-radius: 0.25em;
+  padding: 0.5em;
+}
+
+
+.jw-skin-tube .jw-controlbar .jw-option {
+  height: 1.7em;
+  color: #fff;
+}
+
+.jw-skin-tube .jw-option:hover,
+.jw-skin-tube:not(.jw-flag-touch) .jw-option:hover {
+  color: #f39c12;
+}
+
+.jw-skin-tube .jw-controlbar .jw-option.jw-active-option {
+  color: #f1c40f;
+  background-color: transparent;
+}
+
+.jw-skin-tube .jw-controlbar .jw-overlay {
+  bottom: 2.5em;
+}
+
+
+/* Sets the width for the vertical slider container. */
+.jw-skin-tube .jw-slider-vertical {
+  padding: 1em;
+}
+
+/* This is the class that houses all controls. Use this to adjust the appearance of the entire controlbar. */
+.jw-skin-tube .jw-icon-inline, .jw-skin-tube .jw-icon-tooltip {
+  padding: 0 .75em;
+}
+
+
+/* Use this class to set a global background color for all elemnts. */
+.jw-skin-tube .jw-background-color {
+  background-color: rgba(51,51,51,.6);
+}
+
+/* Use this class to set a global background color for all elemnts. */
+.jw-skin-tube .jw-controlbar.jw-background-color {
+  background-color: transparent !important;
+  background-image: -webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(4,4,4,0.7) 100%) !important;
+  background-image: -moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(4,4,4,0.7) 100%) !important;
+  background-image: -ms-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(4,4,4,0.7) 100%) !important;
+  background-image: -o-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(4,4,4,0.7) 100%) !important;
+  background-image: linear-gradient(top,rgba(255,255,255,0) 1%,rgba(4,4,4,0.7) 100%) !important;
+}
+
+.jw-skin-tube.jwplayer .jw-rightclick ul li .jw-rightclick-logo {
+  color: #f1c40f;
+}
+
+/*.jw-skin-tube .jw-slider-time:hover {
+  font-size: 2em;
+}
+
+.jw-skin-tube .jw-slider-time:hover .jw-slider-container .jw-tooltip-time {
+  font-size: .5em;
+}*/
+
+.jw-skin-tube.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer:not(.jw-flag-ads):not(.jw-flag-live) .jw-controlbar-center-group {
+  padding: 0 8px;
+}
+
+.jw-skin-tube.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer:not(.jw-flag-ads):not(.jw-flag-live) .jw-controlbar-left-group {
+  padding-left: 6px;
+}
+
+/*.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-group>.jw-icon {
+  font-size: 1em;
+}*/
+
+.jwplayer.jw-skin-tube .jw-icon-rewind:before {
+  font-size: 1.1em;
+}
+
+/*.jw-skin-tube .jw-controlbar-center-group {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -.75em;
+}
+.jw-skin-tube.jw-flag-live .jw-controlbar-center-group {
+  position: static;
+}
+
+.jw-skin-tube .jw-controlbar-left-group {
+  float: left;
+}
+.jw-skin-tube.jw-flag-live .jw-controlbar-left-group {
+  float: none;
+}
+
+.jw-skin-tube .jw-controlbar-right-group {
+  float: right;
+}
+.jw-skin-tube.jw-flag-live .jw-controlbar-right-group {
+  float: none;
+}*/
+
+.jw-skin-tube .jw-slider-time.jw-slider-horizontal .jw-slider-container {
+  height: .25em;
+}
+
+.jw-skin-tube .jw-tooltip-time {
+  height: 0.5em;
+}
+.jw-skin-tube .jw-tooltip-time .jw-overlay {
+  bottom: .5em;
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-group>.jw-icon {
+  height: 40px;
+  line-height: 40px;
+}
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-group>.jw-text {
+  font-size: 1em;
+  height: 40px;
+  line-height: 40px;
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer:not(.jw-flag-ads) .jw-controlbar, .jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer:not(.jw-flag-live) .jw-controlbar {
+  /*height: 54px;
+  padding: 14px 0 0;*/
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-group>.jw-icon {
+  padding: 0 0.75em;
+  max-width: 164px;
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-slider-time .jw-buffer,
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-slider-time .jw-progress,
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-slider-time .jw-rail {
+  height: .313em;
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer:not(.jw-flag-ads):not(.jw-flag-live) .jw-controlbar-center-group .jw-slider-horizontal .jw-knob {
+  /*background-color: #f1c40f;*/
+  height: .813em;
+  margin-left: -.4065em;
+  margin-top: -.4065em;
+  width: .813em;
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-controlbar .jw-overlay {
+  /*bottom: 24px;*/
+}
+
+.jwplayer.jw-flag-time-slider-above:not(.jw-flag-ads-googleima).jwplayer .jw-slider-volume.jw-slider-vertical {
+  padding: .8em;
+}

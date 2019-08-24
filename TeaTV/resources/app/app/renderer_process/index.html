@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>TeaTV</title>
+  <!-- <link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet"> -->
+
+  <!--JS -->
+  <!-- <script src="http://vjs.zencdn.net/6.2.7/video.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.11.0/videojs-contrib-hls.min.js"></script> -->
+
+  <!--CSS -->
+  <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+  <link href="css/material-icon.css" rel="stylesheet">
+  <link href="css/libs/font.awesome.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/player.inside.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" type="text/css" href="css/libs/toastr.css">
+  <link rel="stylesheet" type="text/css" href="css/jwplayer-skin/tube.css">
+  <link rel="stylesheet" type="text/css" href="css/jwplayer-skin/thin.css">
+</head>
+
+<body></body>
+<div id="root"></div>
+<div id="player-container">
+  <header></header>
+  <div id="player">
+    <div class="spinner-container active">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="welcome-message">
+  <div class="modal-dialog link-modal" role="document">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="cursor" data-dismiss="modal" aria-label="Close">
+          <i class="material-icons">close</i>
+        </div>
+        <h5 class="modal-title modal-item-title">
+          TeaTV v1.5.0
+          <span id="update-message">(Updating
+            <span>10%</span>..)</span>
+        </h5>
+      </div>
+      <div class="modal-body">
+        <p>Thanks for installing TeaTV</p>
+        <p>TeaTV version v1 is here. What’s on this version?</p>
+        <p>- A lot of FULL HD (1080p) and HD (720p) sources.
+          <br/> - Absolutely free.
+          <br/> - Watch almost all TV shows and movies.</p>
+        <p>We really need your feedback, you definitely request which features you want on the next version. We really appreciate!!!</p>
+        <div>
+          <center>
+            <button class="cursor hover-white" style="display: flex; flex-direction: row; align-items: center; padding: 5px 15px;">
+              <i class="fa fa-facebook-official" style="font-size:35px; margin-right: 10px" aria-hidden="true"></i>
+              <div>
+                <p style="margin: 0">Find us on</p>
+                <p style="margin: 0">
+                  <strong>Facebook</strong>
+                </p>
+              </div>
+
+            </button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<img src="asset/teatv-logo.png" class="teatv-logo" />
+<script>window.TeaTVVersion = "1.5.0";</script>
+<script src="js/libs/jquery-3.2.1.min.js"></script>
+<!-- <script type="text/javascript" src="js/libs/socket.io.2.0.3.js"></script> -->
+<script>if (typeof module === 'object') { window.jQuery = window.$ = module.exports; };</script>
+<!-- <script src="js/libs/snows.js"></script> -->
+<script src="js/libs/popper.min.js"></script>
+<script src="js/libs/dragscroll.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/libs/jwplayer.7.12.js"></script>
+<!-- <script type='text/javascript' src='https://content.jwplatform.com/libraries/kiQn4xF2.js'></script> -->
+<script>jwplayer.key = "3LfvLsc7Emxq5mMc+H09nRG74CQ="</script>
+<script type="text/javascript" src="js/platform.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- <script type="text/javascript" src="js/player.js"></script> -->
+<script src="js/cast.js"></script>
+</body>
+
+</html>

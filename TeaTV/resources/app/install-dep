@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Install dependencies"
+yarn install
+echo "Update source"
+yarn update-source 
+echo "Rebuild node"
+yarn rebuild-node

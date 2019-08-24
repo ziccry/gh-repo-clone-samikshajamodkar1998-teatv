@@ -1,0 +1,102 @@
+[
+    {
+        "type": "movie",
+        "title": "Zootopia",
+        "year": 2016
+    },
+    {
+        "type": "movie",
+        "title": "The Maze Runner",
+        "year": 2014
+    },
+    {
+        "type": "movie",
+        "title": "Kingsman: The Golden Circle",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Fifty Shades of Grey",
+        "year": 2015
+    },
+    {
+        "type": "movie",
+        "title": "The Shape of Water",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Baby Driver",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Thor: Ragnarok",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Darkest Hour",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Batman v Superman: Dawn of Justice",
+        "year": 2016
+    },
+    {
+        "type": "movie",
+        "title": "Lady Bird",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "The Legend of Tarzan",
+        "year": 2016
+    },
+    {
+        "type": "movie",
+        "title": "Annabelle: Creation",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Fifty Shades Freed",
+        "year": 2018
+    },
+    {
+        "type": "movie",
+        "title": "Justice League",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Olaf's Frozen Adventure",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Blade Runner 2049",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Cult of Chucky",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Dunkirk",
+        "year": 2017
+    },
+    {
+        "type": "movie",
+        "title": "Beauty and the Beast",
+        "year": 2017
+    }
+]

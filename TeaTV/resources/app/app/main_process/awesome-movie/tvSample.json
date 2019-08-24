@@ -1,0 +1,142 @@
+[
+    {
+        "type": "tv",
+        "title": "The Walking Dead",
+        "season": 1,
+        "episode": 1,
+        "year": 2010
+    },
+    {
+        "type": "tv",
+        "title": "Supernatural",
+        "season": 1,
+        "episode": 1,
+        "year": 2005
+    },
+    {
+        "type": "tv",
+        "title": "The Flash",
+        "season": 1,
+        "episode": 1,
+        "year": 2014
+    },
+    {
+        "type": "tv",
+        "title": "Gotham",
+        "season": 1,
+        "episode": 1,
+        "year": 2014
+    },
+    {
+        "type": "tv",
+        "title": "Arrow",
+        "season": 1,
+        "episode": 1,
+        "year": 2012
+    },
+    {
+        "type": "tv",
+        "title": "Mindhunter",
+        "season": 1,
+        "episode": 1,
+        "year": 2017
+    },
+    {
+        "type": "tv",
+        "title": "Grey's Anatomy",
+        "season": 1,
+        "episode": 1,
+        "year": 2005
+    },
+    {
+        "type": "tv",
+        "title": "Marvel's Agents of S.H.I.E.L.D.",
+        "season": 1,
+        "episode": 1,
+        "year": 2013
+    },
+    {
+        "type": "tv",
+        "title": "The Missing",
+        "season": 1,
+        "episode": 1,
+        "year": 2014
+    },
+    {
+        "type": "tv",
+        "title": "The Simpsons",
+        "season": 1,
+        "episode": 1,
+        "year": 1989
+    },
+    {
+        "type": "tv",
+        "title": "Family Guy",
+        "season": 1,
+        "episode": 1,
+        "year": 1999
+    },
+    {
+        "type": "tv",
+        "title": "Law & Order: Special Victims Unit",
+        "season": 1,
+        "episode": 1,
+        "year": 1999
+    },
+    {
+        "type": "tv",
+        "title": "Once Upon a Time",
+        "season": 1,
+        "episode": 1,
+        "year": 2011
+    },
+    {
+        "type": "tv",
+        "title": "Game of Thrones",
+        "season": 1,
+        "episode": 1,
+        "year": 2011
+    },
+    {
+        "type": "tv",
+        "title": "Money Heist",
+        "season": 1,
+        "episode": 1,
+        "year": 2017
+    },
+    {
+        "type": "tv",
+        "title": "Friends",
+        "season": 1,
+        "episode": 1,
+        "year": 1994
+    },
+    {
+        "type": "tv",
+        "title": "Alias",
+        "season": 1,
+        "episode": 1,
+        "year": 2001
+    },
+    {
+        "type": "tv",
+        "title": "Breaking Bad",
+        "season": 1,
+        "episode": 1,
+        "year": 2008
+    },
+    {
+        "type": "tv",
+        "title": "Vikings",
+        "season": 1,
+        "episode": 1,
+        "year": 2013
+    },
+    {
+        "type": "tv",
+        "title": "NCIS",
+        "season": 1,
+        "episode": 1,
+        "year": 2003
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "awesome-movie",
+  "version": "0.1.0",
+  "description": "Get link movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test && node test.js",
+    "start": "echo 'Server for addons api run at http://localhost:8000' && cd addons_example && python -m SimpleHTTPServer",
+    "test_addon": "mocha ./addons_example/test/test_mocha.js --timeout 15000",
+    "unit_providers": "node ./test/providers/getSampleData.js && mocha ./test/providers/index.js --timeout 50000"
+  },
+  "author": "atoppa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "byte-converter": "^0.1.4",
+    "cheerio-without-node-native": "^0.20.2",
+    "cloudscraper": "^1.4.1",
+    "compare-versions": "^3.1.0",
+    "cross-fetch": "^1.1.1",
+    "crypto-js": "^3.1.9-1",
+    "dom-storage": "^2.0.2",
+    "js-events-listener": "^1.0.0",
+    "jsdom": "^11.6.2",
+    "qs": "^6.5.1",
+    "remote-file-size": "^3.0.4",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "colors": "^1.1.2",
+    "mocha": "^5.0.1",
+    "snyk": "^1.69.10"
+  }
+}

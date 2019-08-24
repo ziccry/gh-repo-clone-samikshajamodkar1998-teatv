@@ -1,0 +1,14 @@
+node_modules
+product/js/bundle.js
+TeaTV-darwin-x64/
+compiler/node_modules
+app/node_modules
+app/yarn.lock
+app/package-json.lock
+app/googledownload.mp3
+app/renderer_process/css/main.css
+app/renderer_process/js/platform.js
+app/renderer_process/js/main.js
+app/renderer_process/js/getlink.js
+build/outputs
+googledownload.mp3

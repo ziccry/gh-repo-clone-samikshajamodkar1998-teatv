@@ -1,0 +1,13 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Tomorrow Night",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "editor.overviewRulerBorder": true,
+  "editor.tabCompletion": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
+}

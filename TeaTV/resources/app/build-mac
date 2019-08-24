@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Compile app version $1"
+node build darwin x64 $1
+echo "Install dependencies"
+cd /Users/macone/Documents/Electron/e02/build/outputs/TeaTV-darwin-x64/TeaTV.app/Contents/Resources/app/
+yarn install --production
+yarn rebuild-node --version 1.6.2
+rm -rf /Users/macone/Documents/Electron/e02/build/outputs/TeaTV-darwin-x64/TeaTV.app/Contents/Resources/app/build
+rm -rf /Users/macone/Documents/Electron/e02/build/outputs/TeaTV-darwin-x64/TeaTV.app/Contents/Resources/app/dev
+echo "Codesign"
+cd /Users/macone/Documents/Electron/e02/build/outputs/TeaTV-darwin-x64/
+codesign --deep --force --verbose --sign "Mac Developer: Yen Dang (R7B5E4SF9M)" TeaTV.app
+echo "Done"

@@ -1,0 +1,33 @@
+{
+    "host": {
+        "openload": [
+            "https://openload.co/f/G1Y45XZPllw/Karpenter.2017.WEB.x264-FS.mp4",
+            "https://openload.co/embed/aoiV82o6DQ0",
+            "https://oload.stream/f/CUQIuAECTpE/",
+            "https://oload.stream/f/RypaOWyhl78/"
+        ],
+        "streamango": [
+            "https://streamango.com/embed/rrnsqobrsmklnmnc"
+        ],
+        "vidlink": [
+            "https://vidlink.org/redirect?url=https%3A%2F%2F00e9e64bac859dceb2876b8d7f8833f5c4e8226fe8d63751fe-apidata.googleusercontent.com%2Fdownload%2Fdrive%2Fv3%2Ffiles%2F1yFl59Z5_LNwCEOi8ZURefT6WCxQ3m8bQ%3Fqk%3DAD5uMEvouzTsalujtliozyrgXsB7xNmemnkNLqDaKsK_Wd4dIygZxPTFwVlQ32Al3QLsIlyEYSIv63SMQQQPnK3s9ktUra5Y68WOsaJRC5LFdP8VZex5r8_kApOmjccrGLtgtHQwepEBsA2nOH8w3rRWYfPp6rPxQwION9daS-aNVasaNoyfFxbKrzFEIL5rxF7bybqgBZFw6GNpKBK32wAnlPtPYf__CZ64aC0N2Ewg-EGVO2K9BAFB26Zv6rL1RPaAgHhcFalKrsneyDNvUVdJGfQq3_juYp7kJZN2IypzWp6p6VjOZzcNKxtvb1nT-aPYECV1C8qT9VIrLm8Zzsg8T31zpoTO6UW458Tm9zfQFKXPRpI3nrSEzLP4TlsepRE3cHaKl4HQJ41r4nE5HmsaaJMx0azOcVt0yD_SFiQxVYsALllC0cB3UB63GrhpHaDa5xF8tySbHjKQoqn0DFDsMyZ1Mj24AW3c9V2P-KmE6RmoGbV6u5SG7pUu30tyxUh1vMstlLZJm6e42Litax0uxZxmLrD3Q_ZlkPQ8XELcvuQYzyi5xD9835DiXLaVL7iKW8FjG7qYYeJv3URgxB5xPwFs4MYZwRDsCPlq3O2I5P1koArZY037zAH0mdj9zYz4HSfe7fZA_rRsZCaWxQEO318GpjwKTHRYpLu0UhYihDRERL3o6kDO8feV52gt_1st0qe64ZsoNz9dtfwRWj3JtjIgrE7tx37JWbgJB19-Penxd77lVBU4WUiO1axIsJLfOQI5AM_a00Iw-tDirrxORSPx2AyxmslFQRAdcORMejQcHOy6RNoDJXuMQedSEFa-s3eTNk_asJRWAdzoLcbwzcsOGlm9fUJvGOLC2lIpRR02UO2ufXywNCrtrUyGZpCtM36afRyxzUhqGjZG8vjyzYASbQPAmqqHqxWmrNNlYU4MCZKTVK0&size=2183880617"
+        ],
+        "afdah": [
+            "http://afdah.to/embed4/3501632"
+        ],
+        "estream": [
+            "https://estream.to/l3i9fernylji.html"
+        ],
+        "thevideo": [
+            "https://thevideo.me/mh6b7gb1n86e"
+        ]
+    },
+    "provider": {
+        "movie": [
+            "afdah", "alluc-hand", "flixanity", "gowatchfreemovies", "m4ufree", "mytv", "playdk", "primeware", "putlockerhd", "seehd", "seehduno", "yesmovies"
+        ],
+        "tv": [
+           "alluc-hand", "flixanity", "gowatchfreemovies", "m4ufree", "mytv", "playdk", "primeware", "seehd", "seehduno", "yesmovies","watchseriesepisode"
+        ]
+    }
+}
